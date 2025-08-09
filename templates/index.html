@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Hi, I'm John Doe</h1>
+        <p>Data Scientist | Python Developer | Tech Enthusiast</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>I am passionate about building intelligent systems and creating impactful solutions using data and AI.</p>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <ul>
+            <li>News Scraper App</li>
+            <li>Sales Data Analysis with Pandas</li>
+            <li>Machine Learning Model Deployment</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p><a href="{{ url_for('contact') }}">Contact Me</a></p>
+    </footer>
+</body>
+</html>
