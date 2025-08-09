@@ -66,7 +66,7 @@ Visit: [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 - `/` → Renders **index.html**
 - `/contact` → Renders **contact.html** and handles form submission
 
-## 🖌 HTML & CSS Linking
+## HTML & CSS Linking
 
 Flask serves CSS from the `static/` folder.  
 Link CSS in HTML using:
